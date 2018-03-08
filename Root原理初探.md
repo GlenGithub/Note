@@ -19,7 +19,8 @@
 > 或者在bootloader模式下可通过音量上下键进入正常的系统还是recovery模式 可将升级包放在SD卡中 选择SD卡升级模式进行升级
 
 **在APP中提取root权限**
-```Runtime.getRuntime().exec("su");
+```
+Runtime.getRuntime().exec("su");
 OutputStream os = process.getOutputStream();
 os.write("ls /system/app".getBytes());
 os.flush();
