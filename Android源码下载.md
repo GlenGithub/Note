@@ -41,3 +41,15 @@ repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest -b android-8.1.0_r
 repo sync
 ```
 
+### 编译相关
+
+```
+cd android  //切到android目录下
+lunch       //选择编译版本类型
+23    		//针对不同类型选择序号，我这里选择23 user版
+make -j32   //全编，-j加快编译速度
+mmm packages/apps/Helloword/ //单模块编译
+切换到要编译的目录下 mm -B
+make clean  //清除out目录文件
+```
+
