@@ -10,18 +10,18 @@ Java程序运行时的内存分配策略有3种：
 三种存储策略使用的内存空间分别是：
 
 - **静态存储区**
-<br>
+
  主要存放`静态数据`、`全局static数据`、`常量`，这块内存在程序编译时就已分配好，并且在程序整个运行期间都存在。
- <br>
+ 
  
 - **栈区**
-<br>
+
   当方法被执行时，方法体内的局部变量都在栈上创建，并在方法执行结束时，这些局部变量所持有的内存将会自动释放。
- <br>
+
 - **堆区**
-<br>
+
 又称动态内存分配，通常指在程序运行时直接`new`出来的内存，这部分内存在不使用时将会由java垃圾回收器来负责回收。
-<br>
+
 
 ### 栈与堆的区别
 
@@ -276,9 +276,13 @@ android开发经常会继承实现`Activity`、`Fragment`、`View`；此时你�
 下面几个方法都可以移除Message:
 
 > public final void removeCallbacks(Runnable r);
+
 > public final void removeCallbacks(Runnable r,Object token);
+
 > public final void removeCallbacksAndMessages(Object token);
+
 > public final void removeMessages(int what);
+
 > public final void removeMessages(int what,Object object);
 
 - **线程造成的内存泄露**
