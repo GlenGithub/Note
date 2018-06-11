@@ -52,4 +52,5 @@ mmm packages/apps/Helloword/ //单模块编译
 切换到要编译的目录下 mm -B
 make clean  //清除out目录文件
 ```
-
+### 附加
+[Android源码下载-转载](https://blog.csdn.net/hty1053240123/article/details/78333007)
