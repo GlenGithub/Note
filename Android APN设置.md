@@ -32,6 +32,8 @@ android4.0以后Google把`android.permission.WRITE_APN_SETTINGS`权限归为系�
 
 [插卡后APN信息的加载流程](http://lib.csdn.net/article/android/56028?knId=297)
 
+[SIM卡开机流程分析之默认APN设置](https://blog.csdn.net/check_out/article/details/66577476)
+
 [三大运营商上网设置](https://wenku.baidu.com/view/36bf9d19c281e53a5802fff6.html)
 
 [Android 的APN设定与上网处理](https://wenku.baidu.com/view/1717c76c192e45361066f57a.html)
